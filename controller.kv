@@ -1,0 +1,15 @@
+<Controller>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: my_custom_label
+            text: root.label_text
+        Button:
+            text: 'Save PDF'
+            on_press: root.save()
+        Button:
+            text: 'Delete PDF'
+            on_press: root.delete()
+        Button:
+            text: 'Info PDF'
+            on_press: root.info()
